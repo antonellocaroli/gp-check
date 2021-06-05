@@ -1,0 +1,7 @@
+#=dev-util/meson-0.52.0
+=net-libs/libupnp-1.10.1
+=net-libs/libupnp-1.12.0-r1
+=net-libs/libupnp-1.12.1
+=net-libs/libupnp-1.14.0
+>=net-libs/shairplay-9999
+=app-misc/figlet-9999

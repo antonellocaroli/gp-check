@@ -1,0 +1,13 @@
+sys-kernel/linux-firmware linux-fw-redistributable no-source-code
+media-sound/logitechmediaserver-bin logitechmediaserver-bin
+media-sound/networkaudiod-bin Signalyst
+media-sound/RoonBridge roonlabs
+media-sound/hqplayerd-bin Signalyst
+net-misc/bubbleupnp-bin BubbleUPnP-Server
+media-libs/libgmpris Signalyst
+media-sound/hqplayer-bin Signalyst
+media-sound/hqplayer4desktop-bin Signalyst
+media-sound/mac mac
+net-analyzer/nmap NPSL
+dev-embedded/gpbin gentooplayer
+media-sound/librespot-bin librespot

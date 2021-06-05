@@ -1,0 +1,92 @@
+sys-apps/portage -rsync-verify
+sys-apps/util-linux static-libs
+#######da provare a scommentare#######
+#####poi dare il comando emerge -UD @world######
+sys-libs/pam -filecaps
+sys-libs/libcap -pam
+#####################################
+####Grafica##########################
+x11-libs/gdk-pixbuf X
+media-libs/libepoxy X
+app-accessibility/at-spi2-core X
+media-fonts/dejavu X
+x11-libs/pango X
+x11-libs/gtk+ X
+x11-libs/gdk-pixbuf X
+media-libs/libepoxy X
+media-fonts/dejavu X
+x11-libs/libxcb X
+kbdev-libs/libpcre pcre16
+x11-libs/libxkbcommon X
+media-fonts/liberation-fonts X
+dev-libs/libpcre pcre16
+x11-libs/libxcb xkb
+net-misc/tigervnc server
+x11-drivers/nvidia-drivers X
+sys-apps/dbus X
+x11-misc/slim consolekit
+dev-libs/glib dbus
+dev-libs/libpcre2 pcre16
+dev-lang/perl ithreads
+############################
+##catalyst###
+dev-util/catalyst ccache
+net-misc/iputils -caps -filecaps
+#################samba##########
+sys-libs/tevent python
+sys-libs/tdb python
+net-fs/samba client -acl -pam -system-mitkrb5
+net-fs/cifs-utils -acl -ads -caps -caps-ng pam
+sys-apps/util-linux udev
+#sys-auth/consolekit policykit udev
+sys-auth/polkit consolekit
+sys-auth/consolekit udev policykit
+#xfce-base/xfce4-session policykit
+#systemd udisk
+#gnome-base/gvfs policykit udisks
+gnome-base/gvfs udisks
+dev-libs/libxml2 python
+##
+media-libs/gst-plugins-base alsa -egl -nls ogg -opengl -orc -pango vorbis -X -gbm -gles2 -introspection -ivorbis -theora -wayland
+net-libs/glib-networking -gnome -libproxy
+x11-libs/gdk-pixbuf -X
+##########Nvidia#######
+x11-libs/gdk-pixbuf X
+#x11-libs/libX11 abi_x86_32
+#x11-libs/libXext abi_x86_32
+#x11-libs/libvdpau abi_x86_32
+#sys-libs/zlib abi_x86_32
+#x11-libs/libxcb abi_x86_32
+#dev-libs/libpthread-stubs abi_x86_32
+#x11-libs/libXau abi_x86_32
+#x11-libs/libXdmcp abi_x86_32
+#x11-base/xcb-proto abi_x86_32
+#######################
+sys-kernel/gentoo-sources experimental
+#######################
+virtual/libudev -static-libs
+#sys-fs/eudev static-libs
+sys-apps/util-linux static-libs -udev
+####chrome
+app-text/ghostscript-gpl cups
+app-text/xmlto text
+####
+#dev-lang/python sqlite
+dev-lang/python xml sqlite
+dev-java/icedtea headless-awt -alsa -cups
+dev-java/icedtea-bin headless-awt -alsa -cups -gtk
+dev-java/oracle-jre-bin headless-awt -alsa -cups
+sys-boot/grub mount
+media-video/vlc lua faad ffmpeg x264 x265 -jpeg qt5 X
+sys-libs/zlib minizip
+sys-block/gparted fat ntfs
+x11-libs/cairo -X
+dev-cpp/cairomm X
+net-libs/libsoup introspection
+gnome-base/librsvg vala introspection
+app-crypt/gcr vala introspection
+x11-libs/gdk-pixbuf introspection
+net-dns/avahi dbus
+net-dns/avahi mdnsresponder-compat dbus
+dev-java/openjdk-bin headless-awt gentoo-vm
+media-fonts/liberation-fonts -X
