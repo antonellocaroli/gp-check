@@ -90,3 +90,4 @@ net-dns/avahi dbus
 net-dns/avahi mdnsresponder-compat dbus
 dev-java/openjdk-bin headless-awt gentoo-vm
 media-fonts/liberation-fonts -X
+dev-lang/rust-bin rustfmt

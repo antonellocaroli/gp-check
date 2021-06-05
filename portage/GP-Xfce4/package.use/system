@@ -104,3 +104,4 @@ media-libs/freetype png
 app-misc/recoll -qt5
 media-libs/libmediaart -qt5
 dev-python/PyQt5 gui widgets
+dev-lang/rust-bin rustfmt
