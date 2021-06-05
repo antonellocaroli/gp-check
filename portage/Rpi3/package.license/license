@@ -1,0 +1,13 @@
+media-sound/logitechmediaserver-bin logitechmediaserver-bin
+media-sound/networkaudiod-bin Signalyst
+media-sound/RoonBridge roonlabs
+media-sound/hqplayerd-bin-arm64 Signalyst
+net-misc/bubbleupnp-bin BubbleUPnP-Server
+media-libs/libgmpris Signalyst
+media-sound/hqplayer-bin Signalyst
+media-sound/hqplayer4desktop-bin Signalyst
+sys-boot/rpi3-firmware Broadcom raspberrypi-videocore-bin
+media-sound/mac mac
+net-analyzer/nmap NPSL
+dev-embedded/gpbin gentooplayer
+media-sound/librespot-bin librespot
