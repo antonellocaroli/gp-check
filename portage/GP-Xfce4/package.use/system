@@ -105,3 +105,17 @@ app-misc/recoll -qt5
 media-libs/libmediaart -qt5
 dev-python/PyQt5 gui widgets
 dev-lang/rust-bin rustfmt
+media-libs/harfbuzz introspection
+net-libs/gssdp introspection vala
+media-libs/libmediaart vala
+net-libs/gupnp vala
+media-libs/libmediaart introspection
+net-libs/gupnp introspection
+net-libs/gupnp-av introspection
+media-libs/gstreamer introspection
+dev-libs/libgee introspection
+x11-libs/gdk-pixbuf introspection
+media-libs/gst-plugins-base introspection
+media-libs/gstreamer-editing-services introspection
+media-libs/gupnp-dlna introspection
+net-misc/rygel introspection

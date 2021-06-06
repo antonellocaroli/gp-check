@@ -27,7 +27,7 @@ media-sound/logitechmediaserver -aac -alac -avahi -bonjour -ffmpeg -flac -lame -
 ###############################
 media-video/ffmpeg libsoxr mp3
 media-sound/upmpdcli thirdparty
-media-sound/spotify libnotify systray
+media-sound/spotify -libnotify -systray
 media-sound/cantata http-server streaming udisks -musicbrainz -cddb -cdio -taglib
 #######
 media-sound/cmus aac libsamplerate ffmpeg

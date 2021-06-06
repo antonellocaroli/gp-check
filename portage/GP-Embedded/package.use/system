@@ -91,3 +91,16 @@ net-dns/avahi mdnsresponder-compat dbus
 dev-java/openjdk-bin headless-awt gentoo-vm
 media-fonts/liberation-fonts -X
 dev-lang/rust-bin rustfmt
+net-libs/gssdp introspection vala
+media-libs/libmediaart vala
+net-libs/gupnp vala
+media-libs/libmediaart introspection
+net-libs/gupnp introspection
+net-libs/gupnp-av introspection
+media-libs/gstreamer introspection
+dev-libs/libgee introspection
+x11-libs/gdk-pixbuf introspection
+media-libs/gst-plugins-base introspection
+media-libs/gstreamer-editing-services introspection
+media-libs/gupnp-dlna introspection
+net-misc/rygel introspection
