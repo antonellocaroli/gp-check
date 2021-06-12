@@ -1,6 +1,6 @@
 ##sox-dsd####
 #alsa amr ao debug encode flac id3tag ladspa mad ogg openmp opus oss png pulseaudio sndfile static-libs twolame wavpack CPU_FLAGS_X86="avx sse2"
-media-sound/sox-dsd flac wavpack CPU_FLAGS_X86: -avx sse2 
+media-sound/sox-dsd flac wavpack CPU_FLAGS_X86: -avx sse2
 ########alsa-utils########
 ###bat doc +libsamplerate +ncurses nls selinux
 #media-sound/alsa-utils -libsamplerate
@@ -10,7 +10,7 @@ media-sound/sox-dsd flac wavpack CPU_FLAGS_X86: -avx sse2
 #jack lame libav libmpdclient libsamplerate libsoxr mad mikmod mms modplug mpg123 musepack
 #network nfs ogg openal opus oss pipe pulseaudio recorder samba selinux sid signalfd sndfile
 #soundcloud sqlite systemd tcpd twolame unicode upnp vorbis wavpack webdav wildmidi zeroconf zip zlib
-media-sound/mpd flac wavpack mpg123 ffmpeg faad mad lame audiofile libsamplerate libsoxr zeroconf
+media-sound/mpd flac wavpack mpg123 ffmpeg mad faad lame -audiofile libsamplerate libsoxr -zeroconf
 ########################
 ####Squeezelite###########
 ##aac dsd ffmpeg flac gpio lirc mad mpg123 mad pulseaudio resample visexport vorbis
