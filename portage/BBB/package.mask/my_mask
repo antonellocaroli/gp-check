@@ -5,3 +5,4 @@
 =net-libs/libupnp-1.14.0
 >=net-libs/shairplay-9999
 =app-misc/figlet-9999
+=sys-libs/liburing-2.0
