@@ -7,4 +7,5 @@ rsync -a /tmp/gp-check/portage/$gp_model/* /etc/portage/
 if [[ ! -f "/var/db/repos/gentoo/check" ]]; then
   rm -rf /var/db/repos/gentoo/*
   rm -rf /var/db/repos/gentoo/.* 2>/dev/null
+  emerge --sync
 fi
