@@ -50,3 +50,4 @@ dev-java/oracle-jre-bin headless-awt -alsa -cups
 net-dns/avahi mdnsresponder-compat dbus
 dev-java/openjdk-bin headless-awt gentoo-vm
 media-fonts/liberation-fonts -X
+media-libs/harfbuzz -cairo -graphite
