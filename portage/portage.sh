@@ -52,6 +52,7 @@ sync-openpgp-key-refresh-retry-delay-max = 60
 sync-openpgp-key-refresh-retry-delay-mult = 4
 sync-webrsync-verify-signature = no
 EOF
+fi
 
 
 if [[ ! -f "/var/db/repos/gentoo/check$gpversion" ]]; then
