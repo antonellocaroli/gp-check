@@ -54,8 +54,16 @@ sync-webrsync-verify-signature = no
 EOF
 fi
 
-if [[ ! -f "/var/db/repos/gentoo/check$gpversion" ]]; then
-  rm -rf /var/db/repos/gentoo/*
-  rm -rf /var/db/repos/gentoo/.* 2>/dev/null
-  emerge --sync
+if [ $gpversion -lt 610 ]; then
+  if [[ ! -f "/var/db/repos/gentoo/check" ]]; then
+    rm -rf /var/db/repos/gentoo/*
+    rm -rf /var/db/repos/gentoo/.* 2>/dev/null
+    emerge --sync
+  fi
+else
+  if [[ ! -f "/var/db/repos/gentoo/check$gpversion" ]]; then
+    rm -rf /var/db/repos/gentoo/*
+    rm -rf /var/db/repos/gentoo/.* 2>/dev/null
+    emerge --sync
+  fi
 fi
