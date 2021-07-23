@@ -119,3 +119,4 @@ media-libs/gst-plugins-base introspection
 media-libs/gstreamer-editing-services introspection
 media-libs/gupnp-dlna introspection
 net-misc/rygel introspection
+media-libs/freetype harfbuzz
