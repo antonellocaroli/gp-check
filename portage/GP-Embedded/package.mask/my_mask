@@ -3,3 +3,5 @@
 =net-libs/libupnp-1.12.0-r1
 =net-libs/libupnp-1.12.1
 >=net-libs/shairplay-9999
+#####non si copila rygel su x86e (bug 810883)
+>net-libs/libsoup-2.72.0-r1
