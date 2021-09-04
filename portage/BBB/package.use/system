@@ -51,3 +51,4 @@ net-dns/avahi mdnsresponder-compat dbus
 dev-java/openjdk-bin headless-awt gentoo-vm
 media-fonts/liberation-fonts -X
 media-libs/harfbuzz -cairo -graphite
+app-misc/pax-utils -seccomp

@@ -1,6 +1,6 @@
 ##sox-dsd####
 #alsa amr ao debug encode flac id3tag ladspa mad ogg openmp opus oss png pulseaudio sndfile static-libs twolame wavpack CPU_FLAGS_X86="avx sse2"
-media-sound/sox-dsd flac CPU_FLAGS_X86: -avx sse2
+media-sound/sox-dsd flac id3tag mad ogg CPU_FLAGS_X86: -avx sse2
 #media-sound/sox-dsd flac
 ########alsa-utils########
 ###bat doc +libsamplerate +ncurses nls selinux
