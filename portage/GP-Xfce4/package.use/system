@@ -48,6 +48,7 @@ gnome-base/gvfs udisks
 dev-libs/libxml2 python
 ##
 media-libs/gst-plugins-base alsa -egl -nls ogg -opengl -orc -pango vorbis -X -gbm -gles2 -introspection -ivorbis -theora -wayland
+media-libs/gst-plugins-bad -opengl -egl
 net-libs/glib-networking -gnome -libproxy
 x11-libs/gdk-pixbuf -X
 ##########Nvidia#######

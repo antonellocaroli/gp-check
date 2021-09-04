@@ -6,24 +6,10 @@ sys-libs/pam -filecaps
 sys-libs/libcap -pam
 #####################################
 ####Grafica##########################
-x11-libs/gdk-pixbuf X
-media-libs/libepoxy X
-app-accessibility/at-spi2-core X
-media-fonts/dejavu X
-x11-libs/pango X
-x11-libs/gtk+ X
-x11-libs/gdk-pixbuf X
-media-libs/libepoxy X
-media-fonts/dejavu X
-x11-libs/libxcb X
 kbdev-libs/libpcre pcre16
-x11-libs/libxkbcommon X
-media-fonts/liberation-fonts X
 dev-libs/libpcre pcre16
 x11-libs/libxcb xkb
 net-misc/tigervnc server
-x11-drivers/nvidia-drivers X
-sys-apps/dbus X
 x11-misc/slim consolekit
 dev-libs/glib dbus
 dev-libs/libpcre2 pcre16
@@ -48,29 +34,16 @@ gnome-base/gvfs udisks
 dev-libs/libxml2 python
 ##
 media-libs/gst-plugins-base alsa -egl -nls ogg -opengl -orc -pango vorbis -X -gbm -gles2 -introspection -ivorbis -theora -wayland
+media-libs/gst-plugins-bad -opengl -egl
 net-libs/glib-networking -gnome -libproxy
 x11-libs/gdk-pixbuf -X
 ##########Nvidia#######
-x11-libs/gdk-pixbuf X
-#x11-libs/libX11 abi_x86_32
-#x11-libs/libXext abi_x86_32
-#x11-libs/libvdpau abi_x86_32
-#sys-libs/zlib abi_x86_32
-#x11-libs/libxcb abi_x86_32
-#dev-libs/libpthread-stubs abi_x86_32
-#x11-libs/libXau abi_x86_32
-#x11-libs/libXdmcp abi_x86_32
-#x11-base/xcb-proto abi_x86_32
 #######################
 sys-kernel/gentoo-sources experimental
 #######################
 virtual/libudev -static-libs
 #sys-fs/eudev static-libs
 sys-apps/util-linux static-libs -udev
-####chrome
-app-text/ghostscript-gpl cups
-app-text/xmlto text
-####
 #dev-lang/python sqlite
 dev-lang/python xml sqlite
 dev-java/icedtea headless-awt -alsa -cups
@@ -81,7 +54,6 @@ media-video/vlc lua faad ffmpeg x264 x265 -jpeg qt5 X
 sys-libs/zlib minizip
 sys-block/gparted fat ntfs
 x11-libs/cairo -X
-dev-cpp/cairomm X
 net-libs/libsoup introspection
 gnome-base/librsvg vala introspection
 app-crypt/gcr vala introspection
