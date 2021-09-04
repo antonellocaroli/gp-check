@@ -14,5 +14,8 @@
 =media-libs/raspberrypi-userland-9999
 >=net-libs/shairplay-9999
 =sys-apps/coreutils-8.32
-=app-misc/figlet-9999
+>=app-misc/figlet-9999
 >=sys-fs/exfatprogs-9999
+#########
+#####non si copila rygel su x86e (bug 810883)
+>net-libs/libsoup-2.72.0-r1
