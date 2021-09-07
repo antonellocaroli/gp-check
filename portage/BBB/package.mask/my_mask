@@ -6,3 +6,4 @@
 >=net-libs/shairplay-9999
 =app-misc/figlet-9999
 =sys-libs/liburing-2.0
+=media-sound/librespot-bin-0.2.0.3
