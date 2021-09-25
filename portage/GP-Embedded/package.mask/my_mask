@@ -8,4 +8,4 @@
 >=sys-fs/exfatprogs-9999
 #######
 #####non si compila rygel (bug 810883)
->net-libs/libsoup-2.72.0-r1
+=net-libs/libsoup-2.72.0-r1
