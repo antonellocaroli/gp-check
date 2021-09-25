@@ -78,3 +78,5 @@ media-libs/gupnp-dlna introspection
 net-misc/rygel introspection
 media-libs/harfbuzz -cairo -graphite
 app-misc/pax-utils -seccomp
+#####bindist wifi
+net-wireless/hostapd internal-tls

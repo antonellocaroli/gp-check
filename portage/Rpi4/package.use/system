@@ -60,3 +60,5 @@ media-libs/harfbuzz -cairo -graphite
 app-misc/pax-utils -seccomp
 #####
 dev-lang/rust-bin rustfmt
+#####bindist wifi
+net-wireless/hostapd internal-tls

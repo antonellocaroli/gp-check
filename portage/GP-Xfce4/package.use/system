@@ -122,3 +122,5 @@ media-libs/gupnp-dlna introspection
 net-misc/rygel introspection
 media-libs/freetype harfbuzz
 app-misc/pax-utils -seccomp
+#####bindist wifi
+net-wireless/hostapd internal-tls
