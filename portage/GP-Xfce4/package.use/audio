@@ -32,3 +32,5 @@ media-sound/cantata http-server streaming udisks -musicbrainz -cddb -cdio -tagli
 #######
 media-sound/cmus aac libsamplerate ffmpeg
 media-sound/moc aac curl ffmpeg flac libsamplerate mad
+#######
+media-libs/flac ogg

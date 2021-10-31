@@ -26,3 +26,5 @@ media-video/ffmpeg libsoxr mp3
 media-sound/cmus aac libsamplerate ffmpeg
 ##########
 media-sound/moc aac curl ffmpeg flac libsamplerate mad
+#######
+media-libs/flac ogg
