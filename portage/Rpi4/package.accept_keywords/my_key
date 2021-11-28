@@ -63,3 +63,5 @@ sys-fs/exfatprogs **
 media-sound/cmus **
 media-libs/gstreamer-editing-services **
 media-sound/gst123 **
+media-plugins/alsaequal **
+media-plugins/caps-plugins **
