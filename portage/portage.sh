@@ -2,9 +2,9 @@
 gp_model=$(sed -n 19p /etc/default/.hw_model)
 gpversion="$(sed -n 1p /etc/default/.GP-version)$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 
-rsync -a /tmp/gp-check/portage/$gp_model/* /etc/portage/
+rsync -a /tmp/gp-check/portage/"$gp_model"/* /etc/portage/
 
-if [ $gpversion -lt 610 ]; then
+if [ "$gpversion" -lt 610 ]; then
 cat > /etc/portage/repos.conf/gentoo.conf <<EOF
 [DEFAULT]
 main-repo = gentoo
@@ -54,7 +54,7 @@ sync-webrsync-verify-signature = no
 EOF
 fi
 
-if [ $gpversion -lt 610 ]; then
+if [ "$gpversion" -lt 610 ]; then
   if [[ ! -f "/var/db/repos/gentoo/check" ]]; then
     rm -rf /var/db/repos/gentoo/*
     rm -rf /var/db/repos/gentoo/.* 2>/dev/null
@@ -70,4 +70,10 @@ else
   else
     echo "OK"
   fi
+fi
+################################################################################
+#remove sima
+if [ -d "/opt/sima" ]; then
+  # Take action if $DIR exists. #
+  rm -r /opt/sima
 fi
