@@ -80,3 +80,7 @@ media-libs/harfbuzz -cairo -graphite
 app-misc/pax-utils -seccomp
 #####bindist wifi
 net-wireless/hostapd internal-tls
+#650
+app-arch/brotli python
+virtual/imagemagick-tools tiff jpeg
+media-gfx/imagemagick tiff jpeg
