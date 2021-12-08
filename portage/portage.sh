@@ -2,6 +2,12 @@
 gp_model=$(sed -n 19p /etc/default/.hw_model)
 gpversion="$(sed -n 1p /etc/default/.GP-version)$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 
+if echo "$gpversion" | grep EXTRM ; then
+  gpversion="${gpversion//-EXTRM/}"
+fi
+
+
+
 rsync -a /tmp/gp-check/portage/"$gp_model"/* /etc/portage/
 
 if [ "$gpversion" -lt 610 ]; then
