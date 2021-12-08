@@ -1,0 +1,36 @@
+#/etc/portage/package.use/audio
+##sox-dsd####
+#alsa amr ao debug encode flac id3tag ladspa mad ogg openmp opus oss png pulseaudio sndfile static-libs twolame wavpack CPU_FLAGS_X86="avx sse2"
+media-sound/sox-dsd flac wavpack id3tag mad ogg CPU_FLAGS_X86: -avx sse2
+########alsa-utils########
+###bat doc +libsamplerate +ncurses nls selinux
+#media-sound/alsa-utils -libsamplerate
+######mpd#########
+#adplug +alsa ao audiofile bzip2 cdio +curl
+#debug eventfd expat faad ffmpeg fifo flac fluidsynth gme icu id3tag inotify ipv6
+#jack lame libav libmpdclient libsamplerate libsoxr mad mikmod mms modplug mpg123 musepack
+#network nfs ogg openal opus oss pipe pulseaudio recorder samba selinux sid signalfd sndfile
+#soundcloud sqlite systemd tcpd twolame unicode upnp vorbis wavpack webdav wildmidi zeroconf zip zlib
+media-sound/mpd flac wavpack mpg123 ffmpeg mad faad lame -audiofile libsamplerate libsoxr -zeroconf
+########################
+####Squeezelite###########
+##aac dsd ffmpeg flac gpio lirc mad mpg123 mad pulseaudio resample visexport vorbis
+media-sound/squeezelite dsd flac mad mpg123 resample
+####Squeezelite-R2#############
+#dsd ffmpeg lirc resample visexport
+media-sound/squeezelite-R2 dsd
+##########lms-no-bin###############
+dev-perl/Image-Scale jpeg png
+media-libs/gd jpeg png
+dev-perl/GD jpeg png
+media-sound/logitechmediaserver -aac -alac -avahi -bonjour -ffmpeg -flac -lame -musepack -ogg -sox-dsd -wavpack
+###############################
+media-video/ffmpeg libsoxr mp3
+####
+media-sound/upmpdcli thirdparty
+###########
+media-sound/cmus aac libsamplerate ffmpeg
+##########
+media-sound/moc aac curl ffmpeg flac libsamplerate mad
+#######
+media-libs/flac ogg
