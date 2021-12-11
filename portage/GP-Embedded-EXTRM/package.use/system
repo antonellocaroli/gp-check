@@ -1,0 +1,86 @@
+sys-apps/portage -rsync-verify
+sys-apps/util-linux static-libs
+#######da provare a scommentare#######
+#####poi dare il comando emerge -UD @world######
+sys-libs/pam -filecaps
+sys-libs/libcap -pam
+#####################################
+####Grafica##########################
+kbdev-libs/libpcre pcre16
+dev-libs/libpcre pcre16
+x11-libs/libxcb xkb
+net-misc/tigervnc server
+x11-misc/slim consolekit
+dev-libs/glib dbus
+dev-libs/libpcre2 pcre16
+dev-lang/perl ithreads
+############################
+##catalyst###
+dev-util/catalyst ccache
+net-misc/iputils -caps -filecaps
+#################samba##########
+sys-libs/tevent python
+sys-libs/tdb python
+net-fs/samba client -acl -pam -system-mitkrb5
+net-fs/cifs-utils -acl -ads -caps -caps-ng pam
+sys-apps/util-linux udev
+#sys-auth/consolekit policykit udev
+sys-auth/polkit consolekit
+sys-auth/consolekit udev policykit
+#xfce-base/xfce4-session policykit
+#systemd udisk
+#gnome-base/gvfs policykit udisks
+gnome-base/gvfs udisks
+dev-libs/libxml2 python
+##
+media-libs/gst-plugins-base alsa -egl -nls ogg -opengl -orc -pango vorbis -X -gbm -gles2 -introspection -ivorbis -theora -wayland
+media-libs/gst-plugins-bad -opengl -egl
+net-libs/glib-networking -gnome -libproxy
+x11-libs/gdk-pixbuf -X
+##########Nvidia#######
+#######################
+sys-kernel/gentoo-sources experimental
+#######################
+virtual/libudev -static-libs
+#sys-fs/eudev static-libs
+sys-apps/util-linux static-libs -udev
+#dev-lang/python sqlite
+dev-lang/python xml sqlite
+dev-java/icedtea headless-awt -alsa -cups
+dev-java/icedtea-bin headless-awt -alsa -cups -gtk
+dev-java/oracle-jre-bin headless-awt -alsa -cups
+sys-boot/grub mount
+media-video/vlc lua faad ffmpeg x264 x265 -jpeg qt5 X
+sys-libs/zlib minizip
+sys-block/gparted fat ntfs
+x11-libs/cairo -X
+net-libs/libsoup introspection
+gnome-base/librsvg vala introspection
+app-crypt/gcr vala introspection
+x11-libs/gdk-pixbuf introspection
+net-dns/avahi dbus
+net-dns/avahi mdnsresponder-compat dbus
+dev-java/openjdk-bin headless-awt gentoo-vm
+media-fonts/liberation-fonts -X
+dev-lang/rust-bin rustfmt
+net-libs/gssdp introspection vala
+media-libs/libmediaart vala
+net-libs/gupnp vala
+media-libs/libmediaart introspection
+net-libs/gupnp introspection
+net-libs/gupnp-av introspection
+media-libs/gstreamer introspection
+dev-libs/libgee introspection
+x11-libs/gdk-pixbuf introspection
+media-libs/gst-plugins-base introspection
+media-libs/gstreamer-editing-services introspection
+media-libs/gupnp-dlna introspection
+net-misc/rygel introspection
+media-libs/harfbuzz -cairo -graphite
+app-misc/pax-utils -seccomp
+#####bindist wifi
+net-wireless/hostapd internal-tls
+#650
+app-arch/brotli python
+virtual/imagemagick-tools tiff jpeg
+media-gfx/imagemagick tiff jpeg
