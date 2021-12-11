@@ -1,0 +1,10 @@
+=net-libs/libupnp-1.10.1
+=net-libs/libupnp-1.12.0-r1
+=net-libs/libupnp-1.12.1
+>=net-libs/shairplay-9999
+####
+>=app-misc/figlet-9999
+>=sys-fs/exfatprogs-9999
+#######
+#####non si compila rygel (bug 810883)
+#>net-libs/libsoup-2.72.0-r1
