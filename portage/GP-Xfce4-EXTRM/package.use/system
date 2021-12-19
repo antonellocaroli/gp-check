@@ -128,3 +128,6 @@ net-wireless/hostapd internal-tls
 app-arch/brotli python
 virtual/imagemagick-tools tiff jpeg
 media-gfx/imagemagick tiff jpeg
+#####EXTRM##########
+sys-devel/gcc graphite
+dev-lang/python pgo
