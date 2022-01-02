@@ -128,6 +128,9 @@ net-wireless/hostapd internal-tls
 app-arch/brotli python
 virtual/imagemagick-tools tiff jpeg
 media-gfx/imagemagick tiff jpeg
+dev-qt/qtwebchannel qml
+dev-qt/qtwebengine geolocation widgets
+x11-drivers/nvidia-drivers static-libs
 #####EXTRM##########
 sys-devel/gcc graphite
 dev-lang/python pgo
