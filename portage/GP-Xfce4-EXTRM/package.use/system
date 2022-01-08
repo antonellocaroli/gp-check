@@ -133,4 +133,4 @@ dev-qt/qtwebengine geolocation widgets
 x11-drivers/nvidia-drivers static-libs
 #####EXTRM##########
 sys-devel/gcc graphite
-dev-lang/python pgo
+dev-lang/python pgo lto
