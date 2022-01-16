@@ -131,6 +131,7 @@ media-gfx/imagemagick tiff jpeg
 dev-qt/qtwebchannel qml
 dev-qt/qtwebengine geolocation widgets
 x11-drivers/nvidia-drivers static-libs
+dev-libs/libdbusmenu gtk
 #####EXTRM##########
 sys-devel/gcc graphite
 dev-lang/python pgo lto
