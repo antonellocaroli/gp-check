@@ -13,6 +13,13 @@ elif [ "$gp_model" = "Sparky-UsbBridge" ] ; then
 elif [ "$gp_model" = "BBB" ] ; then
   glib_request=2.32
 fi
-if [ "$glib_installed" -ge "$glib_request" ] ; then
+
+glib_installedd="${glib_installed//./}"
+glib_requestt="${glib_request//./}"
+
+echo $glib_installedd
+echo $glib_requestt
+
+if [ "$glib_installedd" -ge "$glib_requestt" ] ; then
   echo "OK" > /tmp/glibok
 fi
