@@ -8,7 +8,8 @@ if grep -q nvidia /etc/portage/make.conf; then
     echo "VIDEO_CARDS=\"nvidia nouveau\"" >> /etc/portage/make.conf
     else
     rsync -a /tmp/gp-check/portage/"$gp_model"/* /etc/portage/
-    echo "VIDEO_CARDS=\"nvidia nouveau\"" >> /etc/portage/make.confs
+    #echo "VIDEO_CARDS=\"nvidia nouveau\"" >> /etc/portage/make.conf
+    echo "VIDEO_CARDS=\"nvidia nouveau\"" >> /etc/portage/make.conf
     fi
   else
     if echo "$gpversion" | grep EXTRM ; then
