@@ -21,3 +21,4 @@ media-sound/hqplayer4client-bin Signalyst
 media-sound/hqplayer4desktop_amd-bin Signalyst
 media-sound/hqplayerd_amd-bin Signalyst
 www-client/google-chrome google-chrome
+x11-drivers/nvidia-drivers NVIDIA-r2
