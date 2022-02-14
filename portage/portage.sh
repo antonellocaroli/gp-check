@@ -5,11 +5,11 @@ gpversion="$(sed -n 1p /etc/default/.GP-version)$(sed -n 2p /etc/default/.GP-ver
 if grep -q nvidia /etc/portage/make.conf; then
     if echo "$gpversion" | grep EXTRM ; then
     rsync -a /tmp/gp-check/portage/"$gp_model""-EXTRM"/* /etc/portage/
-    echo "VIDEO_CARDS=\"nvidia nouveau\"" >> /etc/portage/make.conf
+    echo "VIDEO_CARDS=\"nvidia\"" >> /etc/portage/make.conf
     else
     rsync -a /tmp/gp-check/portage/"$gp_model"/* /etc/portage/
     #echo "VIDEO_CARDS=\"nvidia nouveau\"" >> /etc/portage/make.conf
-    echo "VIDEO_CARDS=\"nvidia nouveau\"" >> /etc/portage/make.conf
+    echo "VIDEO_CARDS=\"nvidia\"" >> /etc/portage/make.conf
     fi
   else
     if echo "$gpversion" | grep EXTRM ; then
