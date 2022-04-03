@@ -19,3 +19,5 @@
 #########
 #####non si compila rygel (bug 810883)
 #>net-libs/libsoup-2.72.0-r1
+=net-fs/samba-4.16.0
+=dev-python/cppy-1.2.0

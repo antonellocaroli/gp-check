@@ -44,7 +44,7 @@ dev-python/pillow jpeg
 net-libs/gssdp introspection vala
 media-libs/libmediaart vala
 net-libs/gupnp vala
-media-libs/libmediaart introspection
+media-libs/libmediaart introspection gtk
 net-libs/glib-networking -gnome
 net-libs/gupnp introspection
 net-libs/gupnp-av introspection

@@ -66,7 +66,7 @@ dev-lang/rust-bin rustfmt
 net-libs/gssdp introspection vala
 media-libs/libmediaart vala
 net-libs/gupnp vala
-media-libs/libmediaart introspection
+media-libs/libmediaart introspection gtk
 net-libs/gupnp introspection
 net-libs/gupnp-av introspection
 media-libs/gstreamer introspection
