@@ -1,3 +1,4 @@
+dev-lang/rust
 =net-libs/libupnp-1.10.1
 =net-libs/libupnp-1.12.0-r1
 =net-libs/libupnp-1.12.1
@@ -10,4 +11,3 @@
 #>net-libs/libsoup-2.72.0-r1
 =net-fs/samba-4.16.0
 =dev-python/cppy-1.2.0
-=x11-libs/libX11-1.8

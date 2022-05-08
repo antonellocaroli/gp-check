@@ -132,6 +132,8 @@ dev-qt/qtwebchannel qml
 dev-qt/qtwebengine geolocation widgets
 x11-drivers/nvidia-drivers static-libs
 dev-libs/libdbusmenu gtk
+x11-libs/wxGTK gstreamer
+dev-qt/qtmultimedia widgets
 #####EXTRM##########
 sys-devel/gcc graphite pgo lto
 dev-lang/python pgo lto

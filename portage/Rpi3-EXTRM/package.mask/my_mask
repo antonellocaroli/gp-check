@@ -1,3 +1,4 @@
+dev-lang/rust
 =dev-util/meson-0.52.0
 =net-misc/iputils-20190515
 =app-portage/cpuid2cpuflags-5
