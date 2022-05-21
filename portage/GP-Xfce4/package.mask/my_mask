@@ -11,3 +11,4 @@ dev-lang/rust
 #>net-libs/libsoup-2.72.0-r1
 =net-fs/samba-4.16.0
 =dev-python/cppy-1.2.0
+>=sys-power/cpupower-9999
