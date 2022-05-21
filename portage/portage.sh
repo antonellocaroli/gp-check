@@ -10,9 +10,9 @@ else
 fi
 
 
-if echo "$gpversion" | grep EXTRM ; then
-  gpversion="${gpversion//-EXTRM/}"
-fi
+#if echo "$gpversion" | grep EXTRM ; then
+#  gpversion="${gpversion//-EXTRM/}"
+#fi
 if echo "$gpversion" | grep EXTRM-SSE42 ; then
   gpversion="${gpversion//-EXTRM-SSE42/}"
 fi
