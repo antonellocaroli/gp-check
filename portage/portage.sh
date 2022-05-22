@@ -13,11 +13,11 @@ fi
 #if echo "$gpversion" | grep EXTRM ; then
 #  gpversion="${gpversion//-EXTRM/}"
 #fi
-if echo "$gpversion" | grep EXTRM-SSE42 ; then
-  gpversion="${gpversion//-EXTRM-SSE42/}"
+if echo "$gpversion" | grep EXTRM-CORE-AVX2 ; then
+  gpversion="${gpversion//-EXTRM-CORE-AVX2/}"
 fi
-if echo "$gpversion" | grep EXTRM-AVX2 ; then
-  gpversion="${gpversion//-EXTRM-AVX2/}"
+if echo "$gpversion" | grep EXTRM-COREi7 ; then
+  gpversion="${gpversion//-EXTRM-COREi7/}"
 fi
 
 #rsync -a /tmp/gp-check/portage/"$gp_model"/* /etc/portage/

@@ -25,6 +25,8 @@ media-libs/gd jpeg png
 dev-perl/GD jpeg png
 media-sound/logitechmediaserver -aac -alac -avahi -bonjour -ffmpeg -flac -lame -musepack -ogg -sox-dsd -wavpack
 ###############################
+#media-video/ffmpeg libsoxr mp3 CPU_FLAGS_X86: avx sse4_2 sse4_1 ssse3 sse3
+#media-video/ffmpeg libsoxr mp3 CPU_FLAGS_X86:  sse4_1 ssse3 sse3
 media-video/ffmpeg libsoxr mp3
 media-sound/upmpdcli thirdparty
 ##############
