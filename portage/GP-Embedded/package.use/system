@@ -84,3 +84,4 @@ net-wireless/hostapd internal-tls
 app-arch/brotli python
 virtual/imagemagick-tools tiff jpeg
 media-gfx/imagemagick tiff jpeg
+net-wireless/wpa_supplicant tkip

@@ -134,3 +134,4 @@ x11-drivers/nvidia-drivers static-libs
 dev-libs/libdbusmenu gtk
 x11-libs/wxGTK gstreamer
 dev-qt/qtmultimedia widgets
+net-wireless/wpa_supplicant tkip
