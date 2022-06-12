@@ -135,6 +135,7 @@ dev-libs/libdbusmenu gtk
 x11-libs/wxGTK gstreamer
 dev-qt/qtmultimedia widgets
 net-wireless/wpa_supplicant tkip
+media-libs/chromaprint tools
 #####EXTRM##########
 sys-devel/gcc graphite pgo lto
 dev-lang/python pgo lto

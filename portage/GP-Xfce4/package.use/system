@@ -135,3 +135,4 @@ dev-libs/libdbusmenu gtk
 x11-libs/wxGTK gstreamer
 dev-qt/qtmultimedia widgets
 net-wireless/wpa_supplicant tkip
+media-libs/chromaprint tools
