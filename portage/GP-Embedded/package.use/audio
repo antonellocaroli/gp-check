@@ -33,3 +33,4 @@ media-sound/moc aac curl ffmpeg flac libsamplerate mad
 #######
 media-libs/flac ogg
 media-sound/beets acoustid chroma lastgenre
+media-sound/gstplayer alsa aac ffmpeg flac http -lame -mp3 -mpeg -ogg -opus -taglib -theora -vorbis -wavpack

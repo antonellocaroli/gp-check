@@ -65,3 +65,10 @@ media-libs/gstreamer-editing-services **
 media-sound/gst123 **
 media-plugins/alsaequal **
 media-plugins/caps-plugins **
+dev-python/jellyfish **
+dev-python/munkres **
+dev-python/python-musicbrainzngs **
+dev-python/requests-oauthlib **
+dev-python/reflink **
+dev-python/confuse **
+dev-python/mediafile **
