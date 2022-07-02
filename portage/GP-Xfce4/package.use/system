@@ -47,8 +47,8 @@ sys-apps/util-linux udev
 gnome-base/gvfs udisks
 dev-libs/libxml2 python
 ##
-media-libs/gst-plugins-base alsa -egl -nls ogg -opengl -pango vorbis -X -gbm -gles2 -introspection -ivorbis -theora -wayland
-media-libs/gst-plugins-bad -opengl -egl
+media-libs/gst-plugins-base alsa -egl -nls ogg -opengl -pango vorbis -X -gbm -gles2 orc introspection -ivorbis -theora -wayland
+media-libs/gst-plugins-bad -opengl -egl introspection orc
 net-libs/glib-networking -gnome -libproxy
 x11-libs/gdk-pixbuf -X
 ##########Nvidia#######
@@ -113,10 +113,9 @@ net-libs/gupnp vala
 media-libs/libmediaart introspection gtk
 net-libs/gupnp introspection
 net-libs/gupnp-av introspection
-media-libs/gstreamer introspection
+media-libs/gstreamer introspection orc
 dev-libs/libgee introspection
 x11-libs/gdk-pixbuf introspection
-media-libs/gst-plugins-base introspection
 media-libs/gstreamer-editing-services introspection
 media-libs/gupnp-dlna introspection
 net-misc/rygel introspection
@@ -136,3 +135,4 @@ x11-libs/wxGTK gstreamer
 dev-qt/qtmultimedia widgets
 net-wireless/wpa_supplicant tkip
 media-libs/chromaprint tools
+media-libs/gst-plugins-good orc
