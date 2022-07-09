@@ -32,3 +32,14 @@ sync-openpgp-key-refresh-retry-delay-max = 60
 sync-openpgp-key-refresh-retry-delay-mult = 4
 sync-webrsync-verify-signature = no
 EOF
+
+
+if [ -f "/etc/portage/repos.conf/gentoo-mirror.conf" ]; then
+    rm /etc/portage/repos.conf/gentoo-mirror.conf
+fi
+
+
+#[gentoo]
+#location = /var/db/repos/gentoo
+#sync-type = rsync
+#sync-uri = rsync://192.168.178.22/gentoo-portage
