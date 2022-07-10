@@ -73,3 +73,6 @@ dev-python/requests-oauthlib **
 dev-python/reflink **
 dev-python/confuse **
 dev-python/mediafile **
+media-sound/mpc **
+dev-python/pyacoustid **
+dev-python/audioread **
