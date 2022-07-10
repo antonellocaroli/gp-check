@@ -14,3 +14,4 @@ sys-boot/rpi3-firmware Broadcom raspberrypi-videocore-bin
 net-analyzer/nmap NPSL
 dev-embedded/gpbin gentooplayer
 media-sound/librespot-bin librespot
+net-misc/hqplayer-control Signalyst

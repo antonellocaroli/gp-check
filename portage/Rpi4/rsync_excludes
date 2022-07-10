@@ -26,10 +26,12 @@
 + dev-libs**
 + dev-perl**
 + dev-python**
++ dev-qt**
 + dev-util**
 + dev-vcs**
 + gnome-base**
 + media-fonts**
++ media-gfx**
 + media-libs**
 + media-plugins**
 + media-sound**

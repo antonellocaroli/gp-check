@@ -11,3 +11,4 @@ media-sound/mac mac
 net-analyzer/nmap NPSL
 dev-embedded/gpbin gentooplayer
 media-sound/librespot-bin librespot
+net-misc/hqplayer-control Signalyst

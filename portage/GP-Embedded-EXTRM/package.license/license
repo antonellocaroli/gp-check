@@ -13,3 +13,4 @@ media-sound/librespot-bin librespot
 dev-embedded/gpbin gentooplayer
 media-sound/RoonServer roonlabs
 media-sound/hqplayerd_amd-bin Signalyst
+net-misc/hqplayer-control Signalyst
