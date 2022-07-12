@@ -86,6 +86,7 @@ virtual/imagemagick-tools tiff jpeg
 media-gfx/imagemagick tiff jpeg
 net-wireless/wpa_supplicant tkip
 media-libs/chromaprint tools
+media-libs/gst-plugins-bad introspection
 #####EXTRM##########
 sys-devel/gcc graphite pgo lto
 dev-lang/python pgo lto
